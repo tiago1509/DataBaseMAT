@@ -5,14 +5,20 @@
  */
 package databasemat;
 
-/**
- *
- * @author Juan Camilo
- */
 public class Juego3 implements Juego{
-
+    int conteo;
+    
     public void promedio() {
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        conteo = 0;
+    }
+    
+    //Conteo
+    public int getConteo() {
+        return conteo;
+    }
+
+    public void setConteo(int conteo) {
+        this.conteo = conteo;
     }
     
 }

@@ -5,15 +5,21 @@
  */
 package databasemat;
 
-/**
- *
- * @author Juan Camilo
- */
 public class Juego4 implements Juego{
 
+    int descomposicion;
     
     public void promedio() {
-        //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        descomposicion = 0;
+    }
+    
+    //Descomposicion
+    public int getDescomposicion() {
+        return descomposicion;
+    }
+    
+    public void setDescomposicion(int descomposicion) {
+        this.descomposicion = descomposicion;
     }
     
 }

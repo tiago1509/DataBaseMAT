@@ -11,20 +11,51 @@ package databasemat;
  */
 public class Juego1 implements Juego{
     
-    boolean lectura;
+    int lectura;
+    int discriminacion;
+    int conteo;
+    int descomposicion;
     
     
     public void promedio(){
-        lectura = false;
+        lectura = 0;
+        discriminacion = 0;
+        conteo = 0;
+        descomposicion = 0;
     }
-
-    public boolean isLectura() {
+    //Lectura
+    public int getLectura() {
         return lectura;
     }
 
-    public void setLectura(boolean lectura) {
+    public void setLectura(int lectura) {
         this.lectura = lectura;
     }
     
+    //Discriminación
+    public int getDiscriminacion() {
+        return discriminacion;
+    }
     
+    public void setDiscriminacion(int discriminacion) {
+        this.discriminacion = discriminacion;
+    }
+    
+    //Conteo
+    public int getConteo() {
+        return conteo;
+    }
+
+    public void setConteo(int conteo) {
+        this.conteo = conteo;
+    }
+    
+    //Descomposición
+    public int getDescomposicion() {
+        return descomposicion;
+    }
+
+    public void setDescomposicion(int descomposicion) {
+        this.descomposicion = descomposicion;
+    }
 }

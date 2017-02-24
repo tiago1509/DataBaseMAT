@@ -11,6 +11,20 @@ package databasemat;
  */
 public class Juego1 implements Juego{
     
+    boolean lectura;
+    
+    
     public void promedio(){
+        lectura = false;
     }
+
+    public boolean isLectura() {
+        return lectura;
+    }
+
+    public void setLectura(boolean lectura) {
+        this.lectura = lectura;
+    }
+    
+    
 }
